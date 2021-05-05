@@ -1,21 +1,14 @@
 # PRESA-PREDADOR
-## AYUDA Y USO BÁSICO DE LA APLICACIÓN
+## AYUDA
+Al PRESA-PREDADOR como primera instancia recibirá el modelado de los parámetros iniciales de seteo por defecto:
 
-## ¿Qué es?
+**SIMULACION DE 2500 PRESAS Y 2 PREDADORES**
 
-**PRESA-PREDADOR es un código que permita llevar a cabo la simulación de las ecuaciones de Lotka-Volterra ambientado a un ecosistema donde conviven presas y predadores. El objetivo es poder analizar de qué manera se comportan las poblaciones de ambos en base a condiciones de entorno iniciales establecidas desde capacidades de terreno y tasas de supervivencia, de manera que ingresando cierta cantidad de cada población respectivamente se pueda interpretar graficamente qué pasa con ellos.
+Al finalizar, la consola le permitirá elegir si desea realizar una prueba con poblaciones a elección.
 
-
-**NUESTRO PATRÓN INICIAL***
-
-La simulacion inicial está seteado en 2500 presas y 2 predadores, como únicos valores a modificar. Una vez representado la primer situacion, la aplicación consulta si desea manifestar otro esquema poblacional, en caso de ser positiva la respuesta del usuario se solicitan las cantidades de presas y predadores y comienza la nueva simulacion.
-
-
-**¿CUANDO TERMINA?***
-Finaliza por iteracción de consola cuando la simulación actual finalizó y el usuaro no desea cargar otro par poblacional.
-
-
-**¿DE QUÉ MANERA ESTÁ REPRESENTADO EL COMPORTAMIENTO DEL ECOSISTEMA?**
-El comportamiento se representa a través de dos diagramas fundamentales:
-- Diagrama de fase con la información de presas y predadores.
-- Diagrama poblacional con la cantidad de presas y Predadores en función del tiempo.
+1. Deberá a través de la consola ingresar "Y" si desea realizar otra prueba, "N" si desea finalizar el programa.
+2. Si su opción fue "Y" deberá ingresar_
+    . El valor correspondiente a las presas
+    . El valor correspondiente a los predadores
+3. El programa consultará a través de dos opciones (Y/N) si desea almacenar los gráficos de fase y población respectivos de la nueva simulación. El almacenado corresponde a la creación de archivos PDF sobre los dos graficos generados en caso que desee guardarlos.
+4. Los archivos se almacenan en la misma carpeta donde se aloja el código local de haber ingresado la opción "Y".
