@@ -18,7 +18,7 @@ git clone https://github.com/navarromatiassr/modeysim.git
 Ingrese **dentro de la carpeta 'PRESA-PREDADOR'** recibida y cree un entorno virtual para evitar instalar las dependencias necesarias
 de manera global, para esto deberá:
 ```
-python3 -m venv **env**
+python3 -m venv env_name
 ```
 Una vez creado, deberá activar el entorno actual a través de:
 ```

@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
 
 #CONDICIONES INICIALES DE POBLACION
 presa = 2500
@@ -13,6 +14,7 @@ dt = 1
 total_presa = []
 total_predador = []
 run = True
+save = 'NO'
 
 initial_presa = presa
 initial_predador = predador
@@ -32,6 +34,8 @@ while run == True:
     plt.ylabel('Poblacion Predadores')
     plt.xlabel('Poblacion Presas')
     plt.title('MODELACION CANTIDAD PRESA: {} PREDADOR: {}'.format(initial_presa, initial_predador))
+    if save == 'YES':
+        plt.savefig("phase-diagram.pdf")
     plt.show()
 
     plt.plot(total_presa, label='Presa')
@@ -47,7 +51,10 @@ while run == True:
     plt.legend(loc='upper right', bbox_to_anchor=(0.3, 0.6, 0.5, 0.5))
 
     plt.grid()
+    if save == 'YES':
+        plt.savefig("poblational-diagram.pdf")
     plt.show()
+
 
     opc = input(str("¿Desea hacer otra prueba? Y/N\n"))
     if opc == 'Y':
@@ -55,6 +62,11 @@ while run == True:
         predador = int(input("Ingrese la cantidad de predadores a modelar\n"))
         initial_presa = presa
         initial_predador = predador
+        opc2 = input(str("¿Desea guardar los diagramas de la prueba? Y/N\n"))
+        if opc2 == 'Y':
+            save = 'YES'
+        else:
+            save = 'NO'
         run = True
     else:
         run = False
