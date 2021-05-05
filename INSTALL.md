@@ -12,7 +12,7 @@ Una vez asegurado ambos paquetes, cree una carpeta e internamente ejecute la ter
 comando para obtener los files correspondientes:
 
 ```
-git clone https://github.com/navarromatiassr/modeysim.git
+git clone https://github.com/navarromatiassr/PRESA-PREDADOR.git
 
 ```
 Ingrese **dentro de la carpeta 'PRESA-PREDADOR'** recibida y cree un entorno virtual para evitar instalar las dependencias necesarias
