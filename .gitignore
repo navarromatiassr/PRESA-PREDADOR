@@ -3,3 +3,5 @@ dist/
 build/
 __pycache__/
 presapredador.spec
+phase-diagram.pdf
+poblational-diagram.pdf

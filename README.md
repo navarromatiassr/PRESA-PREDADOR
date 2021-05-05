@@ -1,6 +1,6 @@
 # PRESA-PREDADOR
 ## AYUDA
-Al PRESA-PREDADOR como primera instancia recibirá el modelado de los parámetros iniciales de seteo por defecto:
+PRESA-PREDADOR como primera instancia recibirá el modelado de los parámetros iniciales de seteo por defecto:
 
 **SIMULACION DE 2500 PRESAS Y 2 PREDADORES**
 
