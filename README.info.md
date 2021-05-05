@@ -3,9 +3,9 @@
 
 PRESA-PREDADOR es un código que permita llevar a cabo la simulación de las ecuaciones de Lotka-Volterra ambientado a un ecosistema donde conviven presas y predadores. El objetivo es poder analizar de qué manera se comportan las poblaciones de ambos en base a condiciones de entorno iniciales establecidas desde capacidades de terreno y tasas de supervivencia, de manera que ingresando cierta cantidad de cada población respectivamente se pueda interpretar graficamente qué pasa con ellos.
 
-![PRESAS](https://i.pinimg.com/originals/cc/4d/90/cc4d905bd67df4d2fc3747f010757e1d.jpg)
+![PRESAS](https://i.pinimg.com/originals/cc/4d/90/cc4d905bd67df4d2fc3747f010757e1d.jpg =100x100)
 VS
-![PREDADOR](http://todovector.com/vector/animales/terrestres/zorro/1.png)
+![PREDADOR](http://todovector.com/vector/animales/terrestres/zorro/1.png =100x100)
 
 **¿QUÉ PARAMETROS POSEE?**
 
