@@ -39,7 +39,7 @@ El diagrama de Fase nos permite interpretar como fueron comportandose las poblac
 DIAGRAMA DE POBLACION
 Los diagramas de poblacion nos permite representar respectivamente como se comportaron ambos grupos poblacionales en función del tiempo, los picos crecientes, decrecientes y la tendencia a mantenerse. En este caso: podemos visualizar que las presas comenzaron un pico de 2500, y los predadores en su valor inicial de 2. Al comenzar el ciclo, las presas decrecen a su pico máximo y los predadores aumentan a su pico máximo. Esto genera que los predadores deban pasar hambre y morir para el proximo ciclo hasta que las presas puedan comenzar a nacer nuevamente y recomponer su natalidad, las oscilaciones comienzan a repetirse en menor escala hasta lograr la tendencia que el diagrama de fase demostraba.
 
-![ScreenShot](./src/poblational-diagram.png)
+![ScreenShot](src/poblational-diagram.png)
 
 **NUESTRO PATRÓN INICIAL**
 
@@ -48,13 +48,13 @@ La simulacion inicial está seteado en 2500 presas y 2 predadores, como únicos 
 EJEMPLOS DE SIMULACIONES PROPIAS:
 500 PRESAS 1 PREDADOR
 
-![image](./src/phase1-diagram.pdf)
+![image](src/phase1-diagram.pdf)
 ![image](src/poblational1-diagram.pdf)
 
 3000 PRESAS 30 PREDADORES
 
-![image](./src/phase2-diagram.pdf)
-![image](./src/poblational2-diagram.pdf)
+![image](src/phase2-diagram.pdf)
+![image](src/poblational2-diagram.pdf)
 
 Como podemos ver, el primer ejemplo extra simula una situacion parecida en el modelado del ecosistema pero en cambio, en el segundo caso las poblaciones sufren picos de mortalidad bruzcos constanemente y si bien se repite el patrón de comportamiento, no logra encontrar un punto equilibrado de natalidad/mortalidad de las especies puestas en prueba.
 **¿CUANDO TERMINA?**
