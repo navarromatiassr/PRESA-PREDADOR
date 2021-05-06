@@ -5,7 +5,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 presa = 2500
 predador = 2
 
-#PARAMETROS LIEBRES-ZORROS
+#PARAMETROS presa-predador GLOBALES
 tasa_presa = 0.08
 tasa_predador = 0.2
 capacidad_terreno = 1500
@@ -13,12 +13,14 @@ dt = 1
 
 total_presa = []
 total_predador = []
-run = True
+
 save = 'NO'
 
 initial_presa = presa
 initial_predador = predador
 
+run = True
+    
 while run == True:
     for i in range(500):
         cap_actual = capacidad_terreno - presa
@@ -54,7 +56,6 @@ while run == True:
     if save == 'YES':
         plt.savefig("poblational-diagram.pdf")
     plt.show()
-
 
     opc = input(str("¿Desea hacer otra prueba? Y/N\n"))
     if opc == 'Y':
