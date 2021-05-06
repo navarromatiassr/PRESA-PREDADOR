@@ -34,12 +34,12 @@ Ambos arrays comienzan a ser graficados :chart_with_downwards_trend:. Se lleva a
 DIAGRAMA DE FASE
 El diagrama de Fase nos permite interpretar como fueron comportandose las poblaciones de ambas especies a lo largo del ciclo. Comenzando con una tendencia de 2500 presas y un rango cercano al 0 de predadores, manifestando un crecimiento de predadores y un decrecimiento de presas como las primeras variaciones, hasta llegar a un pico máximo de poblacion de predadores pero un mínimo de presas, por lo que predadores comienzan a morir por un determinado tiempo hasta que las presas pueden comenzar a aumentar en natalidad. Nuevamente comienza un comportamiento similar al anterior pero en menor escala, hasta demostrar una tendencia de comportamiento de un total de 500 presas para 25 predadores aproximadamente.
 
-![image](src/phase-diagram.png)
+![ScreenShot](./src/phase-diagram.png)
 
 DIAGRAMA DE POBLACION
 Los diagramas de poblacion nos permite representar respectivamente como se comportaron ambos grupos poblacionales en función del tiempo, los picos crecientes, decrecientes y la tendencia a mantenerse. En este caso: podemos visualizar que las presas comenzaron un pico de 2500, y los predadores en su valor inicial de 2. Al comenzar el ciclo, las presas decrecen a su pico máximo y los predadores aumentan a su pico máximo. Esto genera que los predadores deban pasar hambre y morir para el proximo ciclo hasta que las presas puedan comenzar a nacer nuevamente y recomponer su natalidad, las oscilaciones comienzan a repetirse en menor escala hasta lograr la tendencia que el diagrama de fase demostraba.
 
-![image](src/poblational-diagram.png)
+![ScreenShot](./src/poblational-diagram.png)
 
 **NUESTRO PATRÓN INICIAL**
 
@@ -48,13 +48,13 @@ La simulacion inicial está seteado en 2500 presas y 2 predadores, como únicos 
 EJEMPLOS DE SIMULACIONES PROPIAS:
 500 PRESAS 1 PREDADOR
 
-![image](src/phase1-diagram.pdf)
+![image](./src/phase1-diagram.pdf)
 ![image](src/poblational1-diagram.pdf)
 
 3000 PRESAS 30 PREDADORES
 
-![image](src/phase2-diagram.pdf)
-![image](src/poblational2-diagram.pdf)
+![image](./src/phase2-diagram.pdf)
+![image](./src/poblational2-diagram.pdf)
 
 Como podemos ver, el primer ejemplo extra simula una situacion parecida en el modelado del ecosistema pero en cambio, en el segundo caso las poblaciones sufren picos de mortalidad bruzcos constanemente y si bien se repite el patrón de comportamiento, no logra encontrar un punto equilibrado de natalidad/mortalidad de las especies puestas en prueba.
 **¿CUANDO TERMINA?**
